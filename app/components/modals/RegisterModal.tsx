@@ -43,8 +43,8 @@ const RegisterModal = () => {
             })
             .finally(() => {
                 setIsLoading(false);
-            })
-    }
+            });
+    };
 
     return (
         <Modal 
